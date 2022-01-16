@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container {
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(shara\ desert.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar {
+    margin-top: 1rem;
+    text-align: end;
+}
+a{
+    margin-right: 5em;
+    text-decoration: none;
+    color: white;
+}
+span{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 60px;
+}
+.text {
+    flex-basis: 50%;
+    position: relative;
+    top: 215px;
+    padding: 20px;
+    color: white;
+}
+.text p{
+    font-size: 16px;
+}
+button {
+    position: absolute;
+    top: 180px;
+    background: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+}
+.card{
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card1{ 
+    background-image: url(pic-1.png);
+ 
+} 
+.card2{ 
+    background-image: url(pic-2.png);
+ 
+} 
+.card3{ 
+    background-image: url(pic-3.png);
+ 
+} 
+.card4{ 
+    background-image: url(pic-4.png);
+ 
+} 
+/* .pictures{
+    float: right;
+}
+.img-1 {
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+    margin-top: 30px;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+.img-1:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+.pictures-1{
+    clear: right;
+    float: right;
+}
+.text-1 {
+    display: inline-block;
+    z-index: 1;
+    position: absolute;
+    top: 6em;
+    right: 27em;
+}
+.text-2 {
+    display: inline-block;
+    position: absolute;
+    top: 6em;
+    right: 8em;
+}
+.text-3 {
+    display: inline-block;
+    position: absolute;
+    top: 21em;
+    right: 27em;
+}
+.text-4 {
+    display: inline-block;
+    position: absolute;
+    top: 21em;
+    right: 8em;
+}
+.description {
+    position: absolute;
+    top: 50px;
+    margin-left: 50px;
+    float: left;
+    color: white;
+}
+button {
+    position: relative;
+    top: 230px;
+    background: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+}
+.sahara{
+    position: relative;
+    top: 170px;
+    font-size: 80px;
+}
+.p-text {
+    position: absolute;
+    top: 270px;
+    font-weight: bold;
+} */
